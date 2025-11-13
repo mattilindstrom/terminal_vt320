@@ -42,18 +42,11 @@ config.color_schemes = {
 -- Apply the color scheme
 config.color_scheme = 'VT320 Amber'
 
--- Optional fine‑tuning for the “glow” feel
+-- Fine‑tuning
 config.window_background_opacity = 0.98
 config.text_blink_rate = 0
 config.force_reverse_video_cursor = false
 config.bold_brightens_ansi_colors = false
-
--- Terminal layout preferences
-config.font = wezterm.font 'JetBrains Mono'
-config.initial_cols = 120
-config.initial_rows = 36
-config.scrollback_lines = 3500
-config.enable_scroll_bar = true
 
 -- Finally, return the configuration to wezterm
 return config
